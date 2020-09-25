@@ -11,6 +11,6 @@ function(){
             myArray.push(a);
             b = myArray[i];
     }
-    document.getElementById("displayed").innerHTML =`The ${num}th Fibonacci number is ${myArray[num-1]}.`
+    document.getElementById("displayed").innerHTML =`The ${num}th Fibonacci number is ${myArray[num-1]}`
     
 })
